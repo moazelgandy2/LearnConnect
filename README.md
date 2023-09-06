@@ -18,11 +18,11 @@ Additionally, the admin of the platform has full control and oversight over ever
 1-Download the project files
 
 ```bash
-git clone https://github.com/moazelgandy2/Class-reservation-system.git
+git clone https://github.com/moazelgandy2/e-learn
 ```
 2-Change into the project directory:
 ```bash
-cd Class-reservation-system
+cd e-learn
 ```
 3-Run Composer to install the project dependencies:
 ```bash
