@@ -7,60 +7,43 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About this project 
+This is an innovative E-learning website where students can easily sign up using their email addresses and gain access to a wealth of educational videos. To ensure security and authenticity, students must activate their accounts by entering an activation code provided by their respective teachers.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+One of the standout features of our platform is our utilization of Bunny CDN, which provides robust protection against potential video theft or unauthorized access. This means that your educational content is safe and only accessible to those who have the proper authorization.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Additionally, the admin of the platform has full control and oversight over every aspect of the system. This includes the ability to manage and organize video content, edit student details, as well as generate and delete activation codes for student verification. With this level of administrative control, you can ensure the smooth operation and security of your e-learning platform.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Installation
+1-Download the project files
 
-## Learning Laravel
+```bash
+git clone https://github.com/moazelgandy2/Class-reservation-system.git
+```
+2-Change into the project directory:
+```bash
+cd Class-reservation-system
+```
+3-Run Composer to install the project dependencies:
+```bash
+composer install
+```
+4-Edit .env file and add your DataBase connectiondetails.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+5-Run the following command to apply the database migrations:
+```bash
+php artisan migrate
+```
+This command will create or update the database tables according to the defined migrations in the database/migrations directory.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+6-To seed the database with initial data, run:
+```bash
+php artisan db:seed
+```
+This command will populate the database with initial records.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Usage
+```bash
+php artisan serve
+```
+You can now access the project by visiting <http://127.0.0.1:8000> in your web browser, and the admin dashboard is available at <http://127.0.0.1:8000/admin>.
