@@ -11,9 +11,9 @@ class VideosController extends Controller
     {
         $client = new \GuzzleHttp\Client();
 
-        $response = $client->request('GET', 'https://video.bunnycdn.com/library/149632/videos', [
+        $response = $client->request('GET', 'https://video.bunnycdn.com/library/{libraryId}/videos', [
             'headers' => [
-                'AccessKey' => '1167f63b-4818-41bf-b4b2754edd56-01f7-4fe6',
+                'AccessKey' => '{API}',
                 'accept' => 'application/json',
             ],
         ]);
