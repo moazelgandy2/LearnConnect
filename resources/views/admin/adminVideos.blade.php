@@ -6,7 +6,7 @@
                 <h1>Videos</h1>
                 <ul class="breadcrumb">
                     <li>
-                        <a class="active-m" href="home">Home</a>
+                        <a class="active-m" href="admin">Home</a>
                     </li>
                     <li><i class="bx bx-chevron-right"></i></li>
                     <li>
@@ -33,8 +33,8 @@
                         <h5 style="word-wrap: break-word;">{{ str_replace('.mp4', '', $video['title']) }}</h5>
                     </div>
                     <img width="auto" height="300" class="img"
-                        src="https://vz-c16c6517-0a0.b-cdn.net/{{ $video['guid'] }}/thumbnail.jpg?v=1692890155"
-                        alt="">
+                    src="https://vz-785ed555-e08.b-cdn.net/{{ $video['guid'] }}/{{$video['thumbnailFileName']}}"
+                    alt="">
                     <div class="forms"
                         style="display: flex; flex-direction:row; justify-content:center; align-items:center;">
 

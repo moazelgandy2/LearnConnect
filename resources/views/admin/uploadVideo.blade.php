@@ -11,7 +11,7 @@
                 <h1>Videos</h1>
                 <ul class="breadcrumb">
                     <li>
-                        <a class="active-m" href="home">Home</a>
+                        <a class="active-m" href="admin">Home</a>
                     </li>
                     <li><i class="bx bx-chevron-right"></i></li>
                     <li>
