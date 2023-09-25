@@ -7,8 +7,8 @@ use App\Models\Videos;
 
 class VideosController extends Controller
 {
-    private $AccessKey = '43f3f7c1-46a5-441b-be9fdcfc991b-ae4b-4eeb';
-    private $libraryId = '158688';
+    private $AccessKey = 'BUNNY_ACCESS_KEY';
+    private $libraryId = 'VIDEO_LIBRARY_ID';
 
 
     public function index()
