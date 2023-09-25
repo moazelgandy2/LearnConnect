@@ -10,7 +10,7 @@
                     </li>
                     <li><i class="bx bx-chevron-right"></i></li>
                     <li>
-                        <a class="active-m" href="videos">Videos</a>
+                        <a class="active-m" href="adminVideos">Videos</a>
                     </li>
                     <li><i class="bx bx-chevron-right"></i></li>
                     <li>
@@ -24,7 +24,7 @@
         <div class="table-data">
             <div id="video-names-table" style="width:100%; postion:relative;" class="content-container">
                 <iframe
-                    src="https://iframe.mediadelivery.net/embed/149632/{{ $url }}?autoplay=false&loop=false&muted=false&preload=false"
+                    src="https://iframe.mediadelivery.net/embed/{{$libraryId}}/{{ $url }}?autoplay=false&loop=false&muted=false&preload=false"
                     loading="lazy" style="border:none;height:100%;width:100%;"
                     allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true">
                 </iframe>
