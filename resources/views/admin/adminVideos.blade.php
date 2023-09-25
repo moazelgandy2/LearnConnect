@@ -10,7 +10,7 @@
                     </li>
                     <li><i class="bx bx-chevron-right"></i></li>
                     <li>
-                        <a class="active" href="">Videos</a>
+                        <a class="active" href="adminVideos">Videos</a>
                     </li>
                 </ul>
             </div>
