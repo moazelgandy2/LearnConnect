@@ -42,6 +42,8 @@ php artisan db:seed
 ```
 This command will populate the database with initial records.
 
+7-Change the Acesskey and library id inside the Videos and watch videos contorller
+
 ## Usage
 ```bash
 php artisan serve
