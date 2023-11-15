@@ -10,13 +10,13 @@
 ## Table of Contents
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
-  - [Download the project files](#download-the-project-files) 📥
-  - [Change into the project directory](#change-into-the-project-directory) 📂
-  - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies) 🚀
-  - [Set up the environment variables](#set-up-the-environment-variables) ⚙️
-  - [Apply the database migrations](#apply-the-database-migrations) 🗃️
-  - [Seed the database with initial data](#seed-the-database-with-initial-data) 🌱
-- [Configuration](#configuration) 🛠️
+  - [Download the project files](#download-the-project-files-) 📥
+  - [Change into the project directory](#change-into-the-project-directory-) 📂
+  - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies-) 🚀
+  - [Set up the environment variables](#set-up-the-environment-variables-%EF%B8%8F) ⚙️
+  - [Apply the database migrations](#apply-the-database-migrations-%EF%B8%8F) 🗃️
+  - [Seed the database with initial data](#seed-the-database-with-initial-data-) 🌱
+- [Configuration](#configuration) ⚙️
 - [Run](#run) 🚀
 
 ## About this project
