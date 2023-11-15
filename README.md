@@ -11,7 +11,7 @@
 ## Table of Contents
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
-  - [Download the project files](#download-the-project-files) 📥
+  - [Download the project files](#download-the-project-files-) 📥
   - [Change into the project directory](#change-into-the-project-directory) 📂
   - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies) 🚀
   - [Set up the environment variables](#set-up-the-environment-variables) ⚙️
