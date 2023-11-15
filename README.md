@@ -14,19 +14,6 @@
 - [Run](#run) 🚀
 
 
-## Table of Contents
-
-- [About this project](#about-this-project) 📚
-- [Installation](#installation) 🛠️
-  - [Download the project files](#download-the-project-files) 📥
-  - [Change into the project directory](#change-into-the-project-directory) 📂
-  - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies) 🚀
-  - [Set up the environment variables](#set-up-the-environment-variables) ⚙️
-  - [Apply the database migrations](#apply-the-database-migrations) 🗃️
-  - [Seed the database with initial data](#seed-the-database-with-initial-data) 🌱
-- [Configuration](#configuration) 🛠️
-- [Run](#run) 🚀
-
 ## About this project
 
 This is an innovative E-learning website where students can easily sign up using their email addresses and gain access to a wealth of educational videos. To ensure security and authenticity, students must activate their accounts by entering an activation code provided by their respective teachers.
