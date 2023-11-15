@@ -7,8 +7,13 @@
   <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+<<<<<<< HEAD
 ## Table of Contents
 
+=======
+
+## Table of Contents
+>>>>>>> d3684c254fea920bb004e2cf02a8c87fbf3e44c7
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
   - [Download the project files](#download-the-project-files-) 📥
@@ -20,13 +25,23 @@
 - [Configuration](#configuration) ⚙️
 - [Run](#run) 🚀
 
+<<<<<<< HEAD
 ## Table of Contents
 
+=======
+
+
+## Table of Contents
+>>>>>>> d3684c254fea920bb004e2cf02a8c87fbf3e44c7
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
 - [Configuration](#configuration) 🛠️
 - [Run](#run) 🚀
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d3684c254fea920bb004e2cf02a8c87fbf3e44c7
 ## About this project
 
 This is an innovative E-learning website where students can easily sign up using their email addresses and gain access to a wealth of educational videos. To ensure security and authenticity, students must activate their accounts by entering an activation code provided by their respective teachers.
