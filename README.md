@@ -7,6 +7,21 @@
   <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## Table of Contents
+- [About this project](#about-this-project) 📚
+- [Installation](#installation) 🛠️
+  - [Download the project files](#download-the-project-files) 📥
+  - [Change into the project directory](#change-into-the-project-directory) 📂
+  - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies) 🚀
+  - [Set up the environment variables](#set-up-the-environment-variables) ⚙️
+  - [Apply the database migrations](#apply-the-database-migrations) 🗃️
+  - [Seed the database with initial data](#seed-the-database-with-initial-data) 🌱
+- [Configuration](#configuration) ⚙️
+- [Run](#run) 🚀
+
+
+
 ## Table of Contents
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
