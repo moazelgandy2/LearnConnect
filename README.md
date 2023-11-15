@@ -7,45 +7,17 @@
   <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-<<<<<<< HEAD
-
 ## Table of Contents
-
-=======
-
-## Table of Contents
-
-> > > > > > > d3684c254fea920bb004e2cf02a8c87fbf3e44c7
-
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
-  - [Download the project files](#download-the-project-files-) 📥
-  - [Change into the project directory](#change-into-the-project-directory-) 📂
-  - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies-) 🚀
-  - [Set up the environment variables](#set-up-the-environment-variables-%EF%B8%8F) ⚙️
-  - [Apply the database migrations](#apply-the-database-migrations-%EF%B8%8F) 🗃️
-  - [Seed the database with initial data](#seed-the-database-with-initial-data-) 🌱
-- [Configuration](#configuration) ⚙️
-- [Run](#run) 🚀
-
-<<<<<<< HEAD
-
-## Table of Contents
-
-=======
-
-## Table of Contents
-
-> > > > > > > d3684c254fea920bb004e2cf02a8c87fbf3e44c7
-
-- [About this project](#about-this-project) 📚
-- [Installation](#installation) 🛠️
+  - [Download the project files](#download-the-project-files) 📥
+  - [Change into the project directory](#change-into-the-project-directory) 📂
+  - [Run Composer to install the project dependencies](#run-composer-to-install-the-project-dependencies) 🚀
+  - [Set up the environment variables](#set-up-the-environment-variables) ⚙️
+  - [Apply the database migrations](#apply-the-database-migrations) 🗃️
+  - [Seed the database with initial data](#seed-the-database-with-initial-data) 🌱
 - [Configuration](#configuration) 🛠️
 - [Run](#run) 🚀
-
-# <<<<<<< HEAD
-
-> > > > > > > d3684c254fea920bb004e2cf02a8c87fbf3e44c7
 
 ## About this project
 
@@ -62,32 +34,25 @@ Additionally, the admin of the platform has full control and oversight over ever
 ```
 git clone https://github.com/moazelgandy2/e-learn
 ```
-
 ## Change into the project directory 📂
-
 ```
 cd e-learn
 ```
-
 ## Run Composer to install the project dependencies 🚀
-
 ```
 composer install
 ```
 
 ## Set up the environment variables ⚙️
-
 <ul>
     <li>Rename .env.example to .env</li>
     <li>Edit the .env file and add your database connection details.</li>
 </ul>
 
 ## Apply the database migrations 🗃️
-
 ```
 php artisan migrate
 ```
-
 This command will create or update the database tables according to the defined migrations in the `database/migrations` directory.
 
 ## Seed the database with initial data 🌱
@@ -95,23 +60,19 @@ This command will create or update the database tables according to the defined 
 ```
 php artisan db:seed
 ```
-
 This command will populate the database with initial records.
 
 ## Configuration
 
 Change the `$AccessKey`, `$libraryId`, and `$cdnUrl` in the Videos controller:
-
 ```
 private $AccessKey = 'REPLACE-WITH-YOUR-ACCESS-KEY';
 private $libraryId = 'REPLACE-WITH-YOUR-ID';
 private $cdnUrl = 'REPLACE-WITH-YOUR-CDN-URL';
 ```
-
 ## Run 🚀
-
 ```
 php artisan serve
 ```
-
 You can now access the project by visiting http://127.0.0.1:8000 in your web browser, and the admin dashboard is available at http://127.0.0.1:8000/admin.
+
