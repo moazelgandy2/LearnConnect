@@ -8,6 +8,13 @@
 </p>
 
 ## Table of Contents
+- [About this project](#about-this-project) 📚
+- [Installation](#installation) 🛠️
+- [Configuration](#configuration) 🛠️
+- [Run](#run) 🚀
+
+
+## Table of Contents
 
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
