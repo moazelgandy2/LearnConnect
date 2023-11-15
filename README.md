@@ -84,7 +84,7 @@ password : admin
 
 <strong>User</strong>
 
-Account : user@demo.com
+Account : user1@demo.com
 <br>
 Password : user
 ## View⚡
