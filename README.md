@@ -74,10 +74,10 @@ private $cdnUrl = 'REPLACE-WITH-YOUR-CDN-URL';
 ```
 php artisan serve
 ```
-You can use:
-Account: admin@demo.com
-<br>
-Password: admin
+## Login details
+Admin
 
+account : admin@demo.com
+password : admin
 You can now access the project by visiting http://127.0.0.1:8000 in your web browser, and the admin dashboard is available at http://127.0.0.1:8000/admin.
 
