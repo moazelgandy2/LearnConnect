@@ -27,7 +27,7 @@ One of the standout features of our platform is our utilization of Bunny CDN, wh
 
 Additionally, the admin of the platform has full control and oversight over every aspect of the system. This includes the ability to manage and organize video content, edit student details, as well as generate and delete activation codes for student verification. With this level of administrative control, you can ensure the smooth operation and security of your e-learning platform.
 ## Live Demo
-Check out the live demo of this project [here](#https://e-learn.fly.dev/home).
+Check out the live demo of this project [here](https://e-learn.fly.dev/home).
 
 ## Installation
 
