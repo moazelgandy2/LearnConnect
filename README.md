@@ -8,6 +8,7 @@
 </p>
 
 ## Table of Contents
+
 - [About this project](#about-this-project) 📚
 - [Installation](#installation) 🛠️
   - [Download the project files](#download-the-project-files-) 📥
@@ -34,25 +35,32 @@ Additionally, the admin of the platform has full control and oversight over ever
 ```
 git clone https://github.com/moazelgandy2/e-learn
 ```
+
 ## Change into the project directory 📂
+
 ```
 cd e-learn
 ```
+
 ## Run Composer to install the project dependencies 🚀
+
 ```
 composer install
 ```
 
 ## Set up the environment variables ⚙️
+
 <ul>
     <li>Rename .env.example to .env</li>
     <li>Edit the .env file and add your database connection details.</li>
 </ul>
 
 ## Apply the database migrations 🗃️
+
 ```
 php artisan migrate
 ```
+
 This command will create or update the database tables according to the defined migrations in the `database/migrations` directory.
 
 ## Seed the database with initial data 🌱
@@ -60,20 +68,25 @@ This command will create or update the database tables according to the defined 
 ```
 php artisan db:seed
 ```
+
 This command will populate the database with initial records.
 
 ## Configuration
 
-Change the `$AccessKey`, `$libraryId`, and `$cdnUrl` in the Videos controller:
+Change the `$AccessKey`, `$libraryId`, and `$cdnUrl` in the Videos and WatchVideos controller:
+
 ```
 private $AccessKey = 'REPLACE-WITH-YOUR-ACCESS-KEY';
 private $libraryId = 'REPLACE-WITH-YOUR-ID';
 private $cdnUrl = 'REPLACE-WITH-YOUR-CDN-URL';
 ```
+
 ## Run 🚀
+
 ```
 php artisan serve
 ```
+
 ## Login details
 
 <strong>Admin</strong>
@@ -84,9 +97,10 @@ password : admin
 
 <strong>User</strong>
 
-Account : user@demo.com
+Account : user1@demo.com
 <br>
 Password : user
-## View⚡
-You can now access the project by visiting http://127.0.0.1:8000 in your web browser, and the admin dashboard is available at http://127.0.0.1:8000/admin.
 
+## View⚡
+
+You can now access the project by visiting http://127.0.0.1:8000 in your web browser, and the admin dashboard is available at http://127.0.0.1:8000/admin.

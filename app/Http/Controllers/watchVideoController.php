@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class watchVideoController extends Controller
 {
-    private $libraryId = 166065;
+    private $libraryId = 'REPLACE-WITH-LIBRARY-ID';
 
     public function index(Request $request)
     {

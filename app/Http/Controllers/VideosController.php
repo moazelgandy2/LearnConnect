@@ -7,9 +7,9 @@ use App\Models\Videos;
 
 class VideosController extends Controller
 {
-    private $AccessKey = '6fc90354-0f1a-4705-b02af2528c1f-0e4d-4484';
-    private $libraryId = '166065';
-    private $cdnUrl = 'vz-fb992d87-afc.b-cdn.net';
+    private $AccessKey = 'REPLACE-WITH-API-ACCESS-KEY';
+    private $libraryId = 'REPLACE-WITH-LIBRARY-ID';
+    private $cdnUrl = 'REPLACE-WITH-CDN-HOST';
 
 
     public function index()
