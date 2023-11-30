@@ -35,7 +35,7 @@ Check out the live demo of this project [here](https://e-learn.fly.dev/home).
 ### Download the project files 📥
 
 ```
-git clone https://github.com/moazelgandy2/e-learn
+git clone https://github.com/moazelgandy2/LearnConnect.git
 ```
 
 ## Change into the project directory 📂
